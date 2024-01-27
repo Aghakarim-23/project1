@@ -52,7 +52,7 @@
           <img src="images/Brand icon.svg" class="ml-[2rem]" alt="logo" />
         </div>
         <div class="w-28% text-[18px]">
-          $ <i class="fa-solid fa-chevron-down"></i>
+          $ <i class="fa-solid fa-chevron-down cursor-pointer" id="chevron-button"></i>
           <i class="fa-solid fa-cart-shopping ml-[22px]" id="shoppingBtn"></i>
         </div>
       </header>
@@ -129,7 +129,11 @@
             </div>
           </div>
 
-          
+          <div class="w-[114px] h-[169px] shadow-2xl absolute top-20 right-16 hidden" id="currency-menu">
+            <div href="#" class="flex justify-center py-4 hover:bg-gray-200 cursor-pointer" >$ USD</div>
+            <div href="#" class="flex justify-center py-4 hover:bg-gray-200 cursor-pointer" >€ EUR</div>
+            <div href="#" class="flex justify-center py-4 hover:bg-gray-200 cursor-pointer" >¥ JPY</div>
+          </div>
         </div>
       </div>
 
